@@ -1,0 +1,145 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  width: 1100px;
+    font-size: 15pt;
+    background: url("images/Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  position: sticky;
+  background: none;
+  margin-bottom: 100px;
+  z-index: 1;
+}
+
+.logo a {
+  color: white;
+  margin: auto;
+  padding: 25px 50px;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.menu {
+  float: right;
+}
+nav {
+  width: 100%;
+  background: none;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.menu ul li {
+  float: left;
+  padding: 30px 30px 30px 0px;
+  
+}
+
+.menu ul li a {
+  outline: none;
+  color: white;
+  text-decoration: none;
+  padding: 0px 15px 0px 15px;
+  font-family: monospace;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+  outline: none;
+}
+
+tbl-biru {
+  padding: 20px;
+}
+.menu a.tbl-biru {
+  background: royalblue;
+  margin: auto;
+  padding: 15px 15px;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+a.tbl-biru:hover {
+  background: green;
+}
+
+#home {
+  width: 1100px;
+  margin-bottom: 100px;
+}
+
+#home .name {
+  text-align: center;
+}
+
+.name img {
+  height: 140px;
+  margin-bottom: 10px;
+}
+
+.name p {
+  width: 100%;
+  font-family: 'Monaco';
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+#about {
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  margin-bottom: 200px;
+}
+
+h1 {
+  margin: 20px 0px 20px 0px;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+.desc p {
+  text-align: center;
+  padding: 0px 250px 0px 250px;
+}
+
+#project {
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-family: monospace;
+  margin-bottom: 200px;
+}
+
+.desc p {
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  padding: 0px 250px 0px 250px;
+}
