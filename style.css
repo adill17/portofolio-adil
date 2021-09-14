@@ -101,6 +101,7 @@ a.tbl-biru:hover {
 .name p {
   font-family: courier;
   color: white;
+  font-size: 20px;
   font-weight: 200;
 }
 
